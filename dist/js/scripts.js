@@ -7,5 +7,5 @@ btn_comprar.addEventListener('click', function(){
 
 btn_dir.addEventListener('click', function(){
     alert('Necessário fazer Login!')
-    window.location.href = "../paginas/login.html";
+    window.location.href = "./paginas/login.html";
 })

@@ -1,7 +1,11 @@
-/*!
-* Start Bootstrap - Shop Homepage v5.0.5 (https://startbootstrap.com/template/shop-homepage)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+var btn_comprar = document.getElementById('comprarI')
+var btn_dir = document.getElementById('direcionarI')
+
+btn_comprar.addEventListener('click', function(){
+    alert("Dados da Conta: Conta:XXXXXX, Agência XXXX")
+})
+
+btn_dir.addEventListener('click', function(){
+    alert('Necessário fazer Login!')
+    window.location.href = "../paginas/login.html";
+})
